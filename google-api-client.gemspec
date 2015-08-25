@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "google-api-client"
-  s.version = "0.6.4"
+  s.version = "0.6.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bob Aman", "Steve Bazyl"]
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<addressable>, [">= 2.3.2"])
       s.add_runtime_dependency(%q<uuidtools>, [">= 2.1.0"])
       s.add_runtime_dependency(%q<autoparse>, [">= 0.3.3"])
-      s.add_runtime_dependency(%q<faraday>, ["~> 0.8.4"])
+      s.add_runtime_dependency(%q<faraday>, [">= 0.8.4"])
       s.add_runtime_dependency(%q<multi_json>, [">= 1.0.0"])
       s.add_runtime_dependency(%q<extlib>, [">= 0.9.15"])
       s.add_runtime_dependency(%q<jwt>, [">= 0.1.5"])
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<addressable>, [">= 2.3.2"])
       s.add_dependency(%q<uuidtools>, [">= 2.1.0"])
       s.add_dependency(%q<autoparse>, [">= 0.3.3"])
-      s.add_dependency(%q<faraday>, ["~> 0.8.4"])
+      s.add_dependency(%q<faraday>, [">= 0.8.4"])
       s.add_dependency(%q<multi_json>, [">= 1.0.0"])
       s.add_dependency(%q<extlib>, [">= 0.9.15"])
       s.add_dependency(%q<jwt>, [">= 0.1.5"])
@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<addressable>, [">= 2.3.2"])
     s.add_dependency(%q<uuidtools>, [">= 2.1.0"])
     s.add_dependency(%q<autoparse>, [">= 0.3.3"])
-    s.add_dependency(%q<faraday>, ["~> 0.8.4"])
+    s.add_dependency(%q<faraday>, [">= 0.8.4"])
     s.add_dependency(%q<multi_json>, [">= 1.0.0"])
     s.add_dependency(%q<extlib>, [">= 0.9.15"])
     s.add_dependency(%q<jwt>, [">= 0.1.5"])
